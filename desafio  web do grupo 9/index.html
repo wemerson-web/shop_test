@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel do Administrador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Painel do Administrador</h1>
+ 
+  <!-- Formulário para adicionar produto -->
+  <div class="admin-form">
+    <input type="text" id="nomeProduto" placeholder="Nome do produto">
+    <input type="text" id="precoProduto" placeholder="Preço do produto">
+    <input type="text" id="quantidadeProduto" placeholder="Quantidade em estoque">
+    <button onclick="adicionarProduto()">Adicionar Produto</button>
+    <button onclick="limparProdutos()">Limpar Lista</button>
+  </div>
+ 
+  <h2>Produtos Cadastrados</h2>
+  <div id="listaProdutos" class="produtos"></div>
+ 
+  <p id="mensagemCompra"></p>
+ 
+  <script src="script.js"></script>
+</body>
+</html>

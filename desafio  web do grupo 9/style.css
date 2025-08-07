@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+ 
+.admin-form {
+  margin-bottom: 30px;
+}
+ 
+.admin-form input {
+  padding: 8px;
+  margin: 5px;
+  width: 200px;
+}
+ 
+.admin-form button {
+  padding: 10px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+ 
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+ 
+.produto {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 16px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+ 
+.produto h3 {
+  margin: 5px 0;
+}
+ 
+.produto p {
+  margin: 5px 0;
+}
+ 
+.produto input {
+  padding: 6px;
+  width: 90%;
+  margin-top: 5px;
+}
+ 
+.produto button {
+  margin-top: 8px;
+  padding: 8px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+ 
+.produto button.remover {
+  background-color: #dc3545;
+}
+ 
+#mensagemCompra {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
